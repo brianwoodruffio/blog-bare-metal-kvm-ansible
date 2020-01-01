@@ -1,0 +1,15 @@
+[k8s:children]
+k8smaster
+k8sworker
+
+[k8smaster]
+k8snode1    ansible_user=ubuntu ansible_become=true
+
+[k8sworker]
+k8snode2    ansible_user=ubuntu ansible_become=true
+k8snode3    ansible_user=ubuntu ansible_become=true
+k8snode4    ansible_user=ubuntu ansible_become=true
+k8snode5    ansible_user=ubuntu ansible_become=true
+k8snode6    ansible_user=ubuntu ansible_become=true
+
+
